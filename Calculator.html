@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Команда Betteroads</title>
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Play|Poiret+One|Russo+One" rel="stylesheet">
+</head>
+<body>
+	<header class="myHeader">
+		<nav class = "myNav">
+			<a href="index.html">Главная</a>
+			 <a href="Calculator.html">Калькулятор</a>
+			  <a href="Petition.html">Петиция</a> 
+			  <a href="Vk.html">Группа VK</a>
+
+
+		</nav>
+	</header>
+	<main class = "myMain">
+		<section class = "mySection">
+			<h1>Калькулятор</h1>
+			<div class = "content Calculator2">
+				<div class = "Calculator1">
+					<p class = "result"> Стоимость строительства дороги: </p>
+					<p class = "saaas"> млн. руб.</p>
+					<form action="javascript:console.log()" onsubmit="return calculate(this)">
+					<input type="radio" name="Contry" value="germany"> <label>Германия</label> <br>
+					<input type="radio" name="Contry" value="france"> <label>Франция</label> <br>
+					<input type="radio" name="Contry" value="canada"> <label>Канада</label> 	<br>
+	                <input type="radio" name="Contry" value="usa"> <label>США</label> <br>
+					<input type="radio" name="Contry" value="spain"> <label>Испания</label> <br>
+					<input type="radio" name="Contry" value="russia"> <label>Российская Федерация</label> <br>
+					<input type="radio" name="Contry" value="finland"> <label>Финляндия</label> <br>
+					<input type="radio" name="Contry" value="china"> <label>Китай</label> <br>
+					<input type="text" name="Road" placeholder="Количество километров">
+					<input type="submit" name="Ask" value="Определить">
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class = "myFooter">
+    	<a href="mailto:russia@betteroads.ru">email: russia@betteroads.ru</a>
+    </footer>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
